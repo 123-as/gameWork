@@ -72,7 +72,6 @@ class Game{
     }
     team(){
             this.me.sort((a,b)=>Math.random()-0.5);
-            console.log(this.me);
     }
     init(){
         console.log("戰鬥開始");
